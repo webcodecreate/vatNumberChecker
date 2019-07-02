@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    {{ title }}
+  </h1>
+</div>
+
+<div style="text-align:center">
+  <h2>Enter your VAT number:</h2>
+    <form>
+      <input type="text" placeholder="EE" id="countryCode">
+      <br>
+      <input type="number" placeholder="10928390" id="numberCode">
+      <br><br>
+      <button type="button" (click)="getData()">Fetch Data</button>
+    </form>
+</div>
+
+<div style="text-align:center">
+  <br><br>
+  <h3 id="address">Address: </h3>
+  <h3 id="countryAA">Country Code: </h3>
+  <h3 id="name">Name: </h3>
+  <h3 id="requestDate">Request Date: </h3>
+  <h3 id="vatNumber">VAT Number: </h3>
+  <h3 id="validBoolean">Valid: </h3>
+</div>
