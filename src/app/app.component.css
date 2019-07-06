@@ -1,0 +1,33 @@
+body {
+    background: #6ba4ff;
+    text-align:center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 20px;
+}
+#userForm, #userOutput {
+    background-color: #5999ff;
+    border: solid;
+    border-radius: 15px 50px 30px 5px;  
+    margin-left: 35%;
+    margin-right: 35%;
+    font-size: 14px;
+}
+
+#fetchDataButton {
+    background-color: #3683ff;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    
+  }
+
+#firstTitle {
+
+}

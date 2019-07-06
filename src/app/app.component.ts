@@ -9,7 +9,7 @@ import { noUndefined } from '@angular/compiler/src/util';
 })
 
 export class AppComponent {
-  title = 'VATnumberChecker';
+  title = 'Project "VAT Number Checker"';
   private data:any = []
   constructor(private http: HttpClient) {}
   
@@ -20,7 +20,7 @@ export class AppComponent {
       document.getElementById("countryCode")).value;
 
     if (numberCode == 0 || countryCode == '') {
-      alert('VAT number is wrong!');
+      alert('VAT number is wrong. Try again!');
       return;
     }
 
